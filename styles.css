@@ -1,0 +1,113 @@
+#main {
+    background-color: #EEEEEE;
+    margin: 2%;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 450;
+}
+
+#img-div {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1%;
+    margin: 1%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#img-caption {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 1%;
+    padding: 0.5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 15px;
+    border: 100%;
+}
+
+#paragraph-subtitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+    margin: 1%;
+    padding: 1%;
+    max-width: 40%;
+    height: auto;
+}
+
+#tribute-link {
+    color: #00AA98;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tribute-link-container {
+    text-align: center;
+}
+
+#ul-links {
+    color: #5AA59D;
+    font-weight: 900;
+}
+
+#headline {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#important-information {
+    color: #BF0000;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+blockquote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    display: grid;
+    grid-template-rows: 85% 85%;
+}
+
+cite {
+    justify-self: flex-end;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 500;
+    margin: 0% 3% 2% 3%;
+}
